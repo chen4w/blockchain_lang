@@ -1,0 +1,14 @@
+cloc --exclude-lang=JSON,TypeScript --out=lisk.txt ./lisk
+cloc --exclude-lang=JSON,TypeScript --out=bitcoin.txt ./bitcoin
+cloc --exclude-lang=JSON,TypeScript --out=bitmessage.txt ./bitmessage
+cloc --exclude-lang=JSON,TypeScript --out=bitshare.txt ./bitshare
+cloc --exclude-lang=JSON,TypeScript --out=ethereum.txt ./ethereum
+cloc --exclude-lang=JSON,TypeScript --out=factom.txt ./factom
+cloc --exclude-lang=JSON,TypeScript --out=hyperledger.txt ./hyperledger
+cloc --exclude-lang=JSON,TypeScript --out=ipfs.txt ./ipfs
+cloc --exclude-lang=JSON,TypeScript --out=nxt.txt ./nxt
+cloc --exclude-lang=JSON,TypeScript --out=openbazaar.txt ./openbazaar
+cloc --exclude-lang=JSON,TypeScript --out=rscoin.txt ./rscoin
+cloc --exclude-lang=JSON,TypeScript --out=storj.txt ./storj
+
+cloc --sum-reports --out=blockchain_lang lisk.txt bitcoin.txt bitmessage.txt bitshare.txt ethereum.txt factom.txt hyperledger.txt ipfs.txt nxt.txt openbazaar.txt rscoin.txt storj.txt 
